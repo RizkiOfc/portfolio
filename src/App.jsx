@@ -81,7 +81,7 @@ function App() {
               </div>
             </div>
           ))}*/}
-          <q>Not Set Yet.</q>
+          <q className="text-center font-bold">Not Set Yet.</q>
         </div>
     </div>
       <div className="contact mt-32 p-10" id='contact'>
