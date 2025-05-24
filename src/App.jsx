@@ -17,7 +17,7 @@ function App() {
           <a href="#project" className='bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600'>My Project <i className="ri-code-view"></i></a>
         </div>
       </div>
-      <img src={DataImage.HeroImage} alt="Hero Image" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s' loading='lazy' />
+      <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s' loading='lazy' />
     </div>
     <div className="about mt-32 py-10" id='about'>
       <h1 className='text-4xl/snug font-bold mb-4' data-aos="fade-right">About.</h1>
@@ -81,6 +81,25 @@ function App() {
             </div>
           ))}
         </div>
+    </div>
+      <div className="contact mt-32 p-10" id='contact'>
+          <h1 className='text-4xl mb-2 font-bold text-center'>Chats</h1>
+          <p className='text-base/loose text-center mb-10 opacity-10'>Let's Chat</p>
+          <form action="https://formsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800' autoComplete="off">
+            <div className='flex flex-col gap-6'>
+              <div className='flex flex-col gap-2'>
+                <label className='fonnt-semibold'>Name</label>
+                <input type="text" name='nama' placeholder='Enter Your Name...' className='border border-zinc-500 p-2 rounded-md' required />
+              </div>
+              <div className='flex flex-col gap-2'>
+                <label htmlFor="pesan">Message</label>
+                <textarea name="pesan" id="msg" cols="45" rows="7" placeholder='Enter Message...' className='border border-zinc-500 p-2 rounded-md'></textarea>
+              </div>
+              <div className='text-center'>
+                <button type='submit' className='bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 transition-all hover:bg-violet-600'>Send Message</button>
+              </div>
+            </div>
+          </form>
     </div>
     </>
   )
