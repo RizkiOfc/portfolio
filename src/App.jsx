@@ -64,7 +64,7 @@ function App() {
       <h1 className='text-center text-4xl font-bold mb-2 data-aos="fade-right'>My Project</h1>
         <p className='text-base/loose text-center opacity-50' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Here is my project.</p>
         <div className="project-box mt-14 grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-4">
-          {listProyek.map(proyek => (
+          {/*listProyek.map(proyek => (
             <div key={proyek.id} className='p-4 bg-zinc-800 rounded-md' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad}>
               <img src={proyek.gambar} alt="Project" loading='lazy'/>
               <div>
@@ -80,7 +80,8 @@ function App() {
                 </div>
               </div>
             </div>
-          ))}
+          ))}*/}
+          <q>Not Set Yet.</q>
         </div>
     </div>
       <div className="contact mt-32 p-10" id='contact'>
