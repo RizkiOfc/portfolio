@@ -82,14 +82,14 @@ export const listTools = [
   },
   {
     id: 11,
-    gambar: Tools11,
+    gambar: Tools12,
     nama: "HTML",
     ket: "Language",
     dad: "9000",
   },
   {
     id: 11,
-    gambar: Tools12,
+    gambar: Tools11,
     nama: "CSS",
     ket: "Language",
     dad: "1000",
