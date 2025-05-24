@@ -85,13 +85,13 @@ function App() {
     <div className="contact mt-32 p-10" id='contact'>
           <h1 className='text-4xl mb-2 font-bold text-center'>Chats</h1>
           <p className='text-base/loose text-center mb-10 opacity-10'>Let's Chat</p>
-          <form action="https://formsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800 p-10 w-fit mx-auto rounded-md autoComplete="off'>
-            <div className='flex flex-cols gap-6'>
-              <div className='flex flex-cols gap-2'>
+          <form action="https://formsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800 p-10 w-fit mx-auto rounded-md' autoComplete="off">
+            <div className='flex flex-col gap-6'>
+              <div className='flex flex-col gap-2'>
                 <label className='fonnt-semibold'>Name</label>
                 <input type="text" name='nama' placeholder='Enter Your Name...' className='border border-zinc-500 p-2 rounded-md' required />
               </div>
-              <div className='flex flex-cols gap-2'>
+              <div className='flex flex-col gap-2'>
                 <label htmlFor="pesan">Message</label>
                 <textarea name="pesan" id="msg" cols="45" rows="7" placeholder='Enter Message...' className='border border-zinc-500 p-2 rounded-md'></textarea>
               </div>
