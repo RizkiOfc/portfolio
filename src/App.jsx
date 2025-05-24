@@ -81,7 +81,7 @@ function App() {
               </div>
             </div>
           ))}*/}
-          <q className="text-center font-bold">Not Set Yet.</q>
+          <q className="text-center font-bold" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Not Set Yet.</q>
         </div>
     </div>
       <div className="contact mt-32 p-10" id='contact'>
