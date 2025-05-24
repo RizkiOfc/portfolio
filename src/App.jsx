@@ -18,7 +18,7 @@ function App() {
           <a href="#skills" className='bg-indigo-700 p-4 rounded-2xl hover:bg-indigo-600'>My Skills <i class="ri-corner-up-right-double-line"></i></a>
         </div>
       </div>
-      <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s gap-3 rounded-full' loading='lazy' />
+      <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='mt-6 w-[500px] max-w-full md:ml-auto rounded-full animate__animated animate__fadeInUp animate__delay-3s rounded-full' loading='lazy' />
     </div>
     <div className="about mt-32 py-10" id='about'>
       <h1 className='text-4xl/snug font-bold mb-4' data-aos="fade-right">About.</h1>
