@@ -15,7 +15,7 @@ function App() {
         <p className='text-base/loose mb-6 opacity-60'>I have programming and design skills, especially in making websites and bots and others. I like coding😊</p>
         <div className='flex items-center sm:gap-4 gap-2'>
           <a href="#project" className='bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600'>My Project <i className="ri-code-view"></i></a>
-          <a href="#skills" className='bg-indigo-700 p-4 rounded-2xl hover:bg-indigo-600'>My Skills <i class="ri-arrow-right-double-line"></i></a>
+          <a href="#skills" className='bg-indigo-700 p-4 rounded-2xl hover:bg-indigo-600'>My Skills <i class="ri-corner-up-right-double-line"></i></a>
         </div>
       </div>
       <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s gap-3 rounded-full' loading='lazy' />
