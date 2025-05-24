@@ -85,21 +85,19 @@ function App() {
       <div className="contact mt-32 p-10" id='contact'>
           <h1 className='text-4xl mb-2 font-bold text-center'>Chats</h1>
           <p className='text-base/loose text-center mb-10 opacity-10'>Let's Chat</p>
-          <form action="https://fromsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800 p-6 sm:p-10 w-full max-w-xl mx-auto rounded-md' autoComplete="off">
-            <div className='flex flex-col gap-6'>
-              <div className='flex flex-col gap-2'>
-                <label className='fonnt-semibold'>Name</label>
-                <input type="text" name='nama' placeholder='Enter Your Name...' className='border border-zinc-500 p-2 rounded-md' required />
-              </div>
-              <div className='flex flex-col gap-2'>
-                <label htmlFor="pesan">Message</label>
-                <textarea name="pesan" id="msg" cols="45" rows="7" placeholder='Enter Message...' className='border border-zinc-500 p-2 rounded-md'></textarea>
-              </div>
-              <div className='text-center'>
-                <button type='submit' className='bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 transition-all hover:bg-violet-600'>Send Message</button>
-              </div>
-            </div>
-          </form>
+          <form action="https://formsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800 p-6 sm:p-10 w-full max-w-xl mx-auto rounded-md' autoComplete="off">
+  <div className='flex flex-col gap-4'>
+    <div>
+      <label className='font-semibold block mb-1'>Name</label>
+      <input type="text" name='nama' placeholder='Your Name' className='w-full border border-zinc-500 p-2 rounded-md' required />
+    </div>
+    <div>
+      <label htmlFor="pesan" className='font-semibold block mb-1'>Message</label>
+      <textarea name="pesan" id="msg" rows="4" placeholder='Your Message...' className='w-full border border-zinc-500 p-2 rounded-md'></textarea>
+    </div>
+    <button type='submit' className='bg-violet-700 p-3 rounded-lg w-full border border-zinc-600 hover:bg-violet-600 transition-all'>Send</button>
+  </div>
+</form>
     </div>
     </>
   )
