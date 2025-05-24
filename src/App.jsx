@@ -45,7 +45,7 @@ function App() {
         </div>
       </div>
       <div className='skills mt-32' id="skills">
-        <h1 className='text-4xl/snug font-bold mb-4' data-aos="fade-right">My Skills..</h1>
+        <h1 className='text-4xl/snug font-bold mb-4' data-aos="fade-right">My Skills.</h1>
         <p className='w-2/5 text-base/loose opacity-50' data-aos="right" data-aos-duration="1000">Here are some of the my skills.</p>
         <div className='skills-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
           {listTools.map((tool) => (
