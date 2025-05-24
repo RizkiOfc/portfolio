@@ -17,7 +17,7 @@ function App() {
           <a href="#project" className='bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600'>My Project <i className="ri-code-view"></i></a>
         </div>
       </div>
-      <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s' loading='lazy' />
+      <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s rounded-full' loading='lazy' />
     </div>
     <div className="about mt-32 py-10" id='about'>
       <h1 className='text-4xl/snug font-bold mb-4' data-aos="fade-right">About.</h1>
