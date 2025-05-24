@@ -6,7 +6,7 @@ import { listProyek } from './data';
 function App() {
   return (
     <>
-    <div className="hero md:grid grid-cols- pt-10 items-center xl:gap-0 gap-6 grid-cols-1">
+    <div className="hero md:grid grid-cols-1 pt-10 items-center xl:gap-0 gap-6 grid-cols-1">
       <div className='animate__animated animate__fadeInUp animate__delay-2s'>
         <div className='flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl'>
           <q>I Am A Beginner Programmer</q>
