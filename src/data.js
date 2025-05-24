@@ -17,6 +17,8 @@ import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/avew9415g.webp";
+import Tools13 from "/assets/tools/avuzxc7c9.webp";
 
 export const tool = [
   {
@@ -76,6 +78,20 @@ export const listTools = [
     gambar: Tools10,
     nama: "Canva",
     ket: "Design App",
+    dad: "8000",
+  },
+  {
+    id: 11,
+    gambar: Tools11,
+    nama: "HTML",
+    ket: "Language",
+    dad: "9000",
+  },
+  {
+    id: 11,
+    gambar: Tools12,
+    nama: "CSS",
+    ket: "Language",
     dad: "1000",
   },
 ];
