@@ -15,6 +15,7 @@ function App() {
         <p className='text-base/loose mb-6 opacity-60'>I have programming and design skills, especially in making websites and bots and others. I like coding😊</p>
         <div className='flex items-center sm:gap-4 gap-2'>
           <a href="#project" className='bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600'>My Project <i className="ri-code-view"></i></a>
+          <a href="#skills" className='bg-indigo-700 p-4 rounded-2xl hover:bg-indigo-600'>My Skills <i class="ri-arrow-right-double-line"></i></a>
         </div>
       </div>
       <img src={DataImage.HeroImage} alt="Meuni, Kepo" className='w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s rounded-full' loading='lazy' />
@@ -43,7 +44,7 @@ function App() {
           ))}
         </div>
       </div>
-      <div className='skills mt-32'>
+      <div className='skills mt-32' id="skills">
         <h1 className='text-4xl/snug font-bold mb-4' data-aos="fade-right">My Skills..</h1>
         <p className='w-2/5 text-base/loose opacity-50' data-aos="right" data-aos-duration="1000">Here are some of the my skills.</p>
         <div className='skills-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
