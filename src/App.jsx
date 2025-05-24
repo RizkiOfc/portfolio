@@ -85,7 +85,7 @@ function App() {
       <div className="contact mt-32 p-10" id='contact'>
           <h1 className='text-4xl mb-2 font-bold text-center'>Chats</h1>
           <p className='text-base/loose text-center mb-10 opacity-10'>Let's Chat</p>
-          <form action="https://formsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800 p-10 w-fit mx-auto rounded-md'  autoComplete="off">
+          <form action="https://fromsubmit.co/tururizki20@gmail.com" method="POST" className='bg-zinc-800 p-6 sm:p-10 w-full max-w-xl mx-auto rounded-md' autoComplete="off">
             <div className='flex flex-col gap-6'>
               <div className='flex flex-col gap-2'>
                 <label className='fonnt-semibold'>Name</label>
